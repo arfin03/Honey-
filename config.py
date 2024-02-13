@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1213828971))
+OWNER_ID = int(getenv("OWNER_ID", 6800267200))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/royalmusibotl")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/royalmusicboto")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Mahadev_Everything")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/royal_music_29")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,10 +78,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/82d3c6f2f093d096a8f50.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/4a26355529276882a4900.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/1bf6ef9f78416ed8d5678.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/93495c3633210b39d5193.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/16037f4e989a4b4ec422a.jpg"
